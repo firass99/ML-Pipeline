@@ -1,0 +1,11 @@
+# prometheus-values.yaml
+
+prometheus:
+  prometheusSpec:
+    retention: "15d"  # Set retention period to 15 days
+    storageSpec:
+      volumeClaimTemplate:
+        spec:
+          resources:
+            requests:
+              storage: 10Gi  # Set storage size to 10Gi

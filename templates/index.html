@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Prediction</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Prediction Prix Voiture en TN </h1>
+        <form action="/predict" method="post" class="shadow p-4 bg-light rounded">
+            <div class="form-group">
+                <label for="mileage">Mileage:</label>
+                <input type="number" step="0.1" id="mileage" name="Mileage" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="vehicle_color">Vehicle Color:</label>
+                <input type="text" id="vehicle_color" name="Vehicle_color" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="car_age">Car Age:</label>
+                <input type="number" id="car_age" name="Car_age" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="fuel">Fuel:</label>
+                <input type="text" id="fuel" name="fuel" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="gearbox">Gearbox:</label>
+                <input type="text" id="gearbox" name="gearbox" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="horsepower">Horsepower:</label>
+                <input type="number" step="0.1" id="horsepower" name="horsepower" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="car_body">Car Body:</label>
+                <input type="text" id="car_body" name="car_body" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Predict</button>
+        </form>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
