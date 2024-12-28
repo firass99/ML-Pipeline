@@ -113,5 +113,5 @@ Feel free to submit issues or create pull requests for improvements. Contributio
 
 ## Contact
 
-For questions or feedback, contact [firassebai.fs.com](mailto:your-email@example.com).
+For questions or feedback, contact [firassebai.fs@gmail.com](mailto:firassebai.fs@gmail.com).
 
